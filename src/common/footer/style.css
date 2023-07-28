@@ -1,0 +1,129 @@
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #fbfbfb;
+  color: #0e0e0e;
+  line-height: 1.5;
+  border-top: 1px solid black;
+}
+footer a {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #000000;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  /* padding: 1.25rem 1.875rem; */
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+ text-align: justify;
+  /* min-width: 12.5rem; */
+}
+
+/* Footer main | Newsletter form */
+/* form {
+  display: flex;
+  flex-wrap: wrap;
+} */
+input[type="email"] {
+  /* border: 0; */
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+}
+input[type="submit"] {
+  background-color: #00d188;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+
+.ft-list{
+  padding: 0;
+
+}
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+
+.social-btn{
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #535252;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+  list-style-type: none;
+  color: white;
+}
+
+.ft-legal-list li a{
+  color: white;
+  text-decoration: none;
+
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+.footer-divition{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn-link{
+  background: #121212;
+  color: white;
+}

@@ -1,0 +1,51 @@
+.App{
+    /* text-align: center; */
+    /* height:80vh ; */
+    /* position: relative; */
+    /* background-color: #333; */
+}
+
+
+
+.slider-container{
+    /* position: relative; */
+    position: static;
+    height: 100%;
+}
+
+.description{
+    position: absolute;;
+    /* width: 600px; */
+    z-index: 99;
+    color:aliceblue;
+    /* top: 20%;
+    left: 5%; */
+
+}
+
+.description h1 p {
+    font-size: 46px;
+}
+
+.description p {
+    font-size: 22px;
+}
+
+/* .carosel-boult {
+    display: flex;
+    align-items: center;
+    justify-self:center;
+    top: 10%;
+    position: relative;
+    left: 30%;
+} */
+
+.carosel-boult span{
+    width: 45px;
+    height: 12px;
+    background-color: rgb(179, 178, 176);
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px rgb(73, 72, 9.898);
+}

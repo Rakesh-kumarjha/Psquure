@@ -1,0 +1,97 @@
+.homeSlide h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+}
+.homeSlide p {
+  margin: 20px 0;
+}
+.homeSlide ul {
+  position: absolute;
+  bottom: 20px;
+}
+.homeSlide ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+.homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+.homeSlide ul li button::before {
+  font-size: 15px !important;
+  color: #0f3460;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+
+.home{
+  margin-bottom: -5%;
+}
+
+@media screen and (max-width:1099px){
+  .home{
+    margin-bottom: -11%;
+  }
+}
+
+@media screen and (max-width:1075px){
+  .home{
+    margin-bottom: -14%;
+  }
+}
+
+@media screen and (max-width:992px){
+  .home{
+    margin-bottom: -16%;
+  }
+}
+@media screen and (max-width:901px) and (min-width:735px) {
+  .home{
+    margin-bottom: -35%;
+  }
+  
+}
+
+@media screen and (max-width:735px) and (min-width:501px) {
+  .home{
+    margin-bottom: -67%;
+  }
+  
+}
+
+@media screen and (max-width:500px) and (min-width:401px) {
+  .home{
+    margin-bottom: -87%;
+  }
+  
+}
+
+@media screen and (max-width:409px) and (min-width:351px) {
+  .home{
+    margin-bottom: -97%;
+  }
+  
+}
+
+@media screen and (max-width:350px) and (min-width:292px) {
+  .home{
+    margin-bottom: -191%;
+  }
+  
+}
+
+@media screen and (max-width: 668px) and (min-width: 651px){
+  .home{
+    margin-bottom: -43%;
+  }
+}
+
+@media only screen and (max-width: 651px) and (min-width: 600px)  {
+  .home{
+    margin-bottom: -49%;
+  }
+}
